@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Movie𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url='https://t.me/wudixh')
+                InlineKeyboardButton('🤖 ᴡᴀᴛᴄʜ ᴍᴏᴠɪᴇꜱ', url='https://t.me/theultimatetheatre')
             ],
             [
-                InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -46,6 +46,9 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
+        ],[
+            InlineKeyboardButton('☎️ ꜱᴜᴘᴘᴏʀᴛ', url='https://t.me/infohubsupport_robot'),
+            InlineKeyboardButton('💬 ᴄʜᴀᴛᴛɪɴɢ', url='https://t.me/chat_vc_gossip_fun_friendship')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         #add emoji loading then run 1 sec and dlt
