@@ -4,7 +4,7 @@ class script(object):
 
 <blockquote>©️ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @infohub_updates</blockquote>"""
     HELP_TXT = """
-    🙋🏻‍♂️   ʜᴇʟʟᴏ ᴛʜᴇʀᴇ  {} 🤓
+    🙋🏻‍♂️   ʜᴇʟʟᴏ ᴘᴏᴏᴋɪᴇ,   {} 🤓
 
 <blockquote>○ ᴄᴏᴍᴍᴀɴᴅꜱ ʟɪꜱᴛ ○</blockquote>
      
