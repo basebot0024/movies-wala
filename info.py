@@ -44,7 +44,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002310300801'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'infohubsupport_robot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'True')), False)
 IMDB = is_enabled((environ.get('IMDB', 'False')), True)
-SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'False')), False)
+SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'True')), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CUSTOM_FILE_CAPTION}") ## CHANGE CODE IN SCRIPT
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "📂 <em>File Name</em>: <code>{file_name}</code>\n\n ♻ <em>File Size</em>:{file_size} \n\n <b><i>Latest Movies -</i> [𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑'𝖘 𝕿𝖍𝖊𝖆𝖙𝖗𝖊](https://t.me/webseries_robot) </b>")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10 \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑'𝖘 𝕿𝖍𝖊𝖆𝖙𝖗𝖊](https://t.me/webseries_robot)")
