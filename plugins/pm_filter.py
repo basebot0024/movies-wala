@@ -418,6 +418,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
+        ],[
+            InlineKeyboardButton('☎️ ꜱᴜᴘᴘᴏʀᴛ', url='https://t.me/infohubsupport_robot'),
+            InlineKeyboardButton('💬 ᴄʜᴀᴛᴛɪɴɢ', url='https://t.me/chat_vc_gossip_fun_friendship')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -802,7 +805,7 @@ async def advantage_spell_chok(client, msg):
     ]
     btn.append([InlineKeyboardButton(text="✘ ᴄʟᴏsᴇ ✘", callback_data=f'spol#{reqstr1}#close_spellcheck')])
     spell_check_del = await msg.reply_text(
-        text="<b>Sᴘᴇʟʟɪɴɢ Mɪꜱᴛᴀᴋᴇ Bʀᴏ ‼️\n\nᴅᴏɴ'ᴛ ᴡᴏʀʀʏ 😊 Cʜᴏᴏꜱᴇ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴏɴᴇ ʙᴇʟᴏᴡ 👇</b>",
+        text="<b>Sᴘᴇʟʟɪɴɢ Mɪꜱᴛᴀᴋᴇ ᴘᴏᴏᴋɪᴇ ‼️\n\nᴅᴏɴ'ᴛ ᴡᴏʀʀʏ 😊 Cʜᴏᴏꜱᴇ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴏɴᴇ ʙᴇʟᴏᴡ 👇</b>",
         reply_markup=InlineKeyboardMarkup(btn),
         reply_to_message_id=msg.id
     )
