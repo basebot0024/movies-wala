@@ -127,8 +127,8 @@ FɪʟᴇSɪᴢᴇ : {file_size}
     
     RESTART_GC_TXT = """
 <b>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 !</b>
-Kuttu Bot
-**@im_goutham_josh**
+𝕿𝖍𝖊 𝕯𝖊𝖛𝖎𝖑'𝖘 𝕿𝖍𝖊𝖆𝖙𝖗𝖊
+**@infohub_updates**
 
 📅 𝖣𝖺𝗍𝖾 : <code>{}</code>
 ⏰ 𝖳𝗂𝗆𝖾 : <code>{}</code>
