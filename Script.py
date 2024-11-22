@@ -1,5 +1,6 @@
 class script(object):
     START_TXT = """<blockquote>👋🏻 Hᴇʟʟᴏ ᴘᴏᴏᴋɪᴇ, {}.</blockquote>
+
 ɪ ᴀᴍ ᴀ ᴍᴏᴠɪᴇ ʙᴏᴛ ᴛʜᴀᴛ ᴘʀᴏᴠɪᴅᴇꜱ ᴍᴏᴠɪᴇꜱ ᴀɴᴅ ᴡᴇʙꜱᴇʀɪᴇꜱ ɪɴꜱɪᴅᴇ ᴀ ɢʀᴏᴜᴘ ᴏʀ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴏɴ ᴘᴇʀꜱᴏɴᴀʟ ɪɴᴛᴇʀᴀᴄᴛɪᴏɴꜱ.\n\nᴛᴏ ᴇɴᴊᴏʏ ᴍʏ ꜰᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ, ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ(ꜱ) ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴇᴠᴇʀʏ ʀɪɢʜᴛ.
 
 <blockquote>©️ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @infohub_updates</blockquote>"""
@@ -11,7 +12,6 @@ class script(object):
  /start - ᴄʜᴇᴄᴋ ɪꜰ ɪ'ᴍ ᴀʟɪᴠᴇ
  /ping - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɪɴᴛᴇʀɴᴇᴛ ᴘɪɴɢ
  /usage - ʙᴏᴛ ᴜꜱᴀɢᴇ [ɴᴏɴ-ꜰᴜɴᴄᴛɪᴏɴᴀʟ ᴍᴏꜱᴛʟʏ]
- /status - ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ
  /info - ɢᴇᴛ ᴀɴ ᴜꜱᴇʀ'ꜱ ɪɴꜰᴏ 
  /id - ɢᴇᴛ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ᴜꜱᴇʀ ɪᴅ
  /stats - ᴅᴀᴛᴀʙᴀꜱᴇ ꜱᴛᴀᴛᴜꜱ  
@@ -105,11 +105,21 @@ class script(object):
 • /unban  - <code>ᴛᴏ ᴜɴʙᴀɴ ᴀɴ ᴜꜱᴇʀ.</code>
 • /channel - <code>ᴛᴏ ɢᴇᴛ ᴀ ʟɪꜱᴛ ᴏꜰ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴅᴀᴛᴀʙᴀꜱᴇ ᴄʜᴀɴɴᴇʟꜱ.</code>
 • /broadcast - <code>ᴛᴏ ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴀ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜꜱᴇʀꜱ.</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+    STATUS_TXT = """<b>Tᴏᴛᴀʟ Fɪʟᴇs Fʀᴏᴍ Bᴏᴛʜ DBs: <code>{}</code>
+
+Bᴏᴛ Usᴇʀs ᴀɴᴅ Cʜᴀᴛs Cᴏᴜɴᴛ
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> """
+
+Pʀɪᴍᴀʀʏ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛɪsᴛɪᴄs 
+★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
+★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+
+Sᴇᴄᴏɴᴅᴀʀʏ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛɪsᴛɪᴄs
+★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
+★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code> </b>"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
