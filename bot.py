@@ -65,7 +65,7 @@ class Bot(Client):
         logging.info(f"{me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
         logging.info(LOG_STR)
         await self.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT)#RESTART SND IN LOG_CHANNEL
-        print("Goutham SER own Bot</>")
+        print("Bot Code owned by @infohub_updates on Telegram!")
 
         tz = pytz.timezone('Asia/Kolkata')
         today = date.today()
